@@ -33,7 +33,7 @@ def secret_formula(started):
 
 #定义一个变量，赋值
 start_point = 10000
-#调用函数secret_furmula()，参数为10000，将返回结果依次赋值给三个变量(一个新变量)
+#调用函数secret_furmula()，参数为10000，将返回结果依次赋值给三个变量(包括一个新变量)
 beans, jars, crates = secret_formula(start_point)
 
 #打印字符串及输出格式化字符变量
