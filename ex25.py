@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+#定义函数，参数为stuff
+#定义变量words并将函数的参数以split()方法/命令操作后赋值给变量
+#函数返回变量内容
 def break_words(stuff):
 	"""This function will break up words for us."""
 	words = stuff.split(' ')
